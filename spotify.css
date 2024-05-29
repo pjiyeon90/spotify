@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+
+a:hover{
+    color: lime;
+}
+header{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_menu{
+    padding-bottom: 12px;
+}
+.nav_menu > a{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.nav_menu > span{
+ color: white;
+ margin-right: 26px;
+}
+
+main{
+    height: 900px;
+    background-color: rgb(51, 51, 177);
+    background-image:url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position: 45% 20%;
+    text-align: center;
+}
+.text{
+    position: relative;
+    font-family: 'kanit';
+    font-size: 165px;
+    font-weight:bold;
+    color: rgb(82, 209, 82);
+    top: 130px;
+}
+.listen{
+    left: -5%;
+}
+.every{
+    left: 5%;
+    top: 50px;
+}
+.main_sf{
+    color: rgb(82, 209, 82);
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+main > button{
+    margin-top: 20px;
+    background-color: rgb(82, 209, 82);
+    padding: 15px 33px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:rgb(51, 51, 177);
+    border-radius: 50px;
+}
+
+footer{
+    padding: 100px 350px 20px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+}
+.footer_menu{
+display: flex;
+justify-content: space-between;  
+}
+
+.sns_area{
+    display: flex;
+}
+.icon{
+    width: 54px;
+    height: 54px;
+    border-radius: 100px;
+    background-color: rgb(80, 80, 80, 0.5);
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.middlemenu{
+    display: flex;
+    margin-top:-5px;
+}
+.menu{
+    margin-right: 50px;
+}
+.menu > h3{
+    color:rgb(100, 100, 100);
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    
+}
+.menu > ul{
+position: relative;
+left: -38px;
+}
+.menu > ul > li{
+    margin: 10px 0;
+}
+
+.second_line > .spanright{
+    float:right;
+}
+.second_line > span{
+    color: rgb(100, 100, 100);
+
+}
+.second_line > span > a{
+    color: rgb(100, 100, 100);
+}
+.first_line{
+    float: right;
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+    margin:50px 0 10px;
+}
+.fa-earth-asia{
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+}
+.second_line{
+    clear: both;
+}
